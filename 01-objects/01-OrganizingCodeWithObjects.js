@@ -1,3 +1,5 @@
+/*  */
+
 /*const playerOne = {
     name: "Markus",
     marker: "X"
@@ -13,7 +15,9 @@ function gameOver(winningPlayer) {
     console.log(`${winningPlayer.name} ${winningPlayer.marker} is the winner!`);
 } */
 
-const car = {
+/* */
+
+/* const car = {
     make: "Toyota",
     model: "Camry",
     year: 2020,
@@ -29,4 +33,7 @@ const car = {
     }
 };
 
-console.log(car.getSummary(car.applyDiscount(50)))
+console.log(car.getSummary(car.applyDiscount(50))) */
+
+/* */
+
