@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="app-container">
+        
+        <aside id="sidebar">
+            <button command="show-modal" commandfor="my-dialog">New Book</button>
+        </aside>
+
+        <main id="elementary-div">
+            </main>
+    </div>
+
+    <dialog id="my-dialog">
+        <h3>Agregar nuevo libro</h3>
+        <form id="form-libro">
+          <label for="nombre">Titulo:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Ingresar el titulo" required>
+
+          <label for="autor">Autor:</label>
+          <input type="text" id="autor" name="autor" placeholder="Ingresar el autor" required>
+
+          <label for="genero">Genero:</label>
+          <input type="text" id="genero" name="genero" placeholder="Ingresar el genero" required>
+          
+          <div class="modal-actions">
+            <button type="button" commandfor="my-dialog" command="close">Close</button>
+            <button type="submit" id="btn-guardar">Save</button>
+          </div>
+        </form>
+    </dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
