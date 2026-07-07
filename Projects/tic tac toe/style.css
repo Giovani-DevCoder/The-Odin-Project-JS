@@ -1,0 +1,27 @@
+.tic-tac-toe {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); /* 3 columnas de 100px cada una */
+    grid-template-rows: repeat(3, 100px);    /* 3 filas de 100px cada una */
+    gap: 5px;                                 /* Espacio de separación entre casillas */
+    margin: 20px auto;
+    width: 310px;                             /* Ancho total aproximado */
+}
+
+/* El diseño de cada botón/casilla individual */
+.casilla {
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    border-radius: 8px;
+    font-size: 2rem;                          /* Letra grande para la X y la O */
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+/* Efecto visual al pasar el mouse por encima */
+.casilla:hover {
+    background-color: #e0e0e0;
+}
